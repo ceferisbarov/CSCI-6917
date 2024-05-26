@@ -1,21 +1,23 @@
 # Week 1
-I spent the first week exploring several potential research topics. These were counterfactual explanations (XAI) and single-cell transcriptomics.
+I spent the first week exploring two potential research topics. These were counterfactual explanations (XAI) and single-cell transcriptomics.
 
 ## Counterfactual explanations
 This topic had caught my interest several months ago. I skimmed through dozens of papers and read three of them:
+
 * [Explaining Black-Box Models through Counterfactuals](https://arxiv.org/abs/2308.07198)
 
 * [Explaining NLP Models via Minimal Contrastive Editing (MiCE)](https://aclanthology.org/2021.findings-acl.336/)
 
 * [Explaining Machine Learning Classifiers through Diverse Counterfactual Explanations](https://arxiv.org/abs/1905.07697)
 
-I will write a review of the second paper till the next class.
 
 One potential summer project was adding new methods to the `CounterfactualExplanations.jl` package. I decided against it since it was not a research-intensive work.
 
 Another idea is using the [PROPANE](https://arxiv.org/abs/2311.07064) method for generating counterfactuals. I will spend the next week exploring this idea further.
 
 `dice.ipynb` notebook contains my initial attempts to use existing libraries to work with counterfactuals.
+
+`hooks.py` script contains a sample PyTorch code where I used hooks to log forward and backward paths of an arbitrary `torch.nn` module. This might be useful for creating a new counterfactuals approach.
 
 ## Single-cell transcriptomics
 
