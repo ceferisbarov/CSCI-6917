@@ -1,7 +1,7 @@
 # Week 1
 I spent the first week exploring two potential research topics. These were counterfactual explanations (XAI) and single-cell transcriptomics.
 
-## Counterfactual explanations
+## Expanding the `CounterfactualExplanations.jl` package
 This topic had caught my interest several months ago. I skimmed through dozens of papers and read three of them:
 
 * [Explaining Black-Box Models through Counterfactuals](https://arxiv.org/abs/2308.07198)
@@ -10,14 +10,20 @@ This topic had caught my interest several months ago. I skimmed through dozens o
 
 * [Explaining Machine Learning Classifiers through Diverse Counterfactual Explanations](https://arxiv.org/abs/1905.07697)
 
+One potential summer project was adding new methods (MiCE and CORE) to the `CounterfactualExplanations.jl` package. I decided against it since it was not a research-intensive work.
 
-One potential summer project was adding new methods to the `CounterfactualExplanations.jl` package. I decided against it since it was not a research-intensive work.
+`dice.ipynb` notebook contains my initial attempts to use existing libraries to work with counterfactuals. I have already made some contributions to the package a month ago:
 
-Another idea is using the [PROPANE](https://arxiv.org/abs/2311.07064) method for generating counterfactuals. I will spend the next week exploring this idea further.
+[CounterfactualExplanations.jl](https://github.com/ceferisbarov/CounterfactualExplanations.jl)
 
-`dice.ipynb` notebook contains my initial attempts to use existing libraries to work with counterfactuals.
+## PROPANE -> Counterfactuals
 
-`hooks.py` script contains a sample PyTorch code where I used hooks to log forward and backward paths of an arbitrary `torch.nn` module. This might be useful for creating a new counterfactuals approach.
+[PROPANE](https://arxiv.org/abs/2311.07064) method is useful for generating "evil twins" for human-readable prompts. Another idea is using this method for generating counterfactuals. I will spend the next week exploring this idea further.
+
+
+## More invasive counterfactuals
+
+I discussed with prof. Kaisler the possibility of logging forward and backward paths of a deep learning model. Turns out PyTorch already provides with hooks that can achieve this. `hooks.py` script contains a sample PyTorch code where I used hooks to log an arbitrary `torch.nn` module. This might be useful for creating a new counterfactuals approach.
 
 ## Single-cell transcriptomics
 
