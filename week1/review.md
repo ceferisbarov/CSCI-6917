@@ -5,7 +5,7 @@
 This paper proposes a new method of generating counterfactual explanations for text-to-text models.
 
 ## Motivation
-While there are various methods for explaining generative NLP models, none of the major ones utilizes the idea of counterfactuals. Counterfactual explanations have been extensively used for tabular and image data, but less so for textual models.
+While there are various methods for explaining generative NLP models, none of the major ones utilizes the idea of counterfactuals. Counterfactual explanations have been extensively used for tabular and image data, but less so for textual models. This paper suggests a method that allows us to create counterfactual explanations for generative language models.
 
 
 <!-- 3. One sentence description of what the paper is about.
