@@ -23,6 +23,8 @@ This paper builds on the ideas proposed by the previous paper. TBH I have not ha
 
 ### Gradient-Based Novelty Detection Boosted by Self-Supervised Binary Classification
 
+This is the third and final paper on uncertainty estimation via weight analysis.
+
 ### Explanatory Paradigms in Neural Networks
 
 I decided to read a review paper on explanatory paradigms in neural networks. I am not through with it yet, but it will help me place my project on a more comprehensive framework.
