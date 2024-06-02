@@ -31,3 +31,11 @@ I decided to read a review paper on explanatory paradigms in neural networks. I 
 
 ## Proposal
 I finalized my proposal this week. I started with the email exchange and the video cal that we had, but tried to make it more specific and more relevant to the existing body of work.
+
+## PyTorch Hooks
+
+I continued working on PyTorch Hooks:
+
+[Documentation](https://pytorch.org/docs/stable/generated/torch.Tensor.register_hook.html)
+
+I created a simple deep learning model and registered backward hooks which allow us observe changes happening during backpropogation.
