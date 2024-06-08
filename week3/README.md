@@ -23,6 +23,7 @@ I have begun exploring a potential method that will allow us understand how CNNs
 (2) During the inference, remove (make weights zero) a single convolutional filter and calculate the loss.
 (3) Pick the filters that affect the loss the most.
 
-These filters give us some idea about which features of the image are more important.
+These filters give us some idea about which features of the image are more important. You can check the `cnns` folder for some preliminary work on this.
+
 
 I am thinking about how I can expand this method.
