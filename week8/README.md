@@ -8,3 +8,7 @@ Done:
 Next week:
 - Integrate replace-roberta with the existing infrastructure.
 - Deploy the first version in Streamlit Cloud.
+
+Files:
+- `replace_bert.py` contains the main method. `utils.py` contains accompanying utility functions.
+- `2402.00794v2.pdf` contains the aforementioned paper.
